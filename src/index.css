@@ -4,4 +4,7 @@
 
 body{
   margin: 0;
+  width: 370px;
+  border: solid 1px black;
+  text-align: center;
 }

@@ -3,8 +3,105 @@
 }
 
 body{
+  font-family: Inter, sans-serif;
   margin: 0;
-  width: 370px;
-  border: solid 1px black;
   text-align: center;
+  background-color: #23252C;
 }
+
+header > p{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+}
+
+main > h1{
+  text-align: start;
+}
+
+main > p {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  font-weight: 100;
+  text-align: start;
+}
+
+img{
+  width: 100%;
+  display: block;
+
+}
+
+.card{
+  width: 320px;
+  margin: 2rem auto;
+  background: #1A1B21;
+  color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.content{
+  padding: 20px;
+
+}
+
+h1{
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+h2{
+  margin-top: 5px;
+  font-size: 12.8px;
+  color: #F3BF99;
+}
+
+button{
+  display: flex;
+  border-radius: 6px;
+  margin-top: 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+.btn-email,
+.btn-linkedin {
+  flex: 1;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-linkedin{
+  color: white;
+  background-color: #5093E2;
+  border: none;
+}
+
+.btn-email{
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+footer{
+  display: flex;
+  background-color: #161619;
+  padding: 20px 100px;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > svg{
+  font-size: 2rem;
+  color: #918E9B;
+}
+ 

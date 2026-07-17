@@ -9,10 +9,12 @@ import {
 export default function Icons(){
     return(
         <>
-        <FontAwesomeIcon icon={faSquareGithub} className="icon-Github"/>
-        <FontAwesomeIcon icon={faSquareInstagram} className="icon-Instagram"/>
-        <FontAwesomeIcon icon={faSquareFacebook} className="icon-Facebook"/>
-        <FontAwesomeIcon icon={faSquareXTwitter} className="icon-Twitter"/>
+        <footer>
+            <FontAwesomeIcon icon={faSquareGithub} className="icon-Github"/>
+            <FontAwesomeIcon icon={faSquareInstagram} className="icon-Instagram"/>
+            <FontAwesomeIcon icon={faSquareFacebook} className="icon-Facebook"/>
+            <FontAwesomeIcon icon={faSquareXTwitter} className="icon-Twitter"/>
+        </footer>
         </>
     )
 }

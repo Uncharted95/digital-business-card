@@ -1,8 +1,11 @@
+
+import profile from "../assets/profile.jpg";
+
 export default function header(){
     return(
         <>
         <header>
-            <img className="image" src="/assets/profile.jpg" alt="head shot for company"/>
+            <img className="image" src={profile} alt="head shot for company"/>
         </header>
         <h1>Alexander Aldilemi</h1>
         <h2>UX Engineer</h2>

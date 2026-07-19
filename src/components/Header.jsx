@@ -1,7 +1,7 @@
 
 import profile from "../assets/profile.jpg";
 
-export default function header(){
+export default function Header(){
     return(
         <>
         <header>
